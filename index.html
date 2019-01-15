@@ -66,14 +66,11 @@
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.swiper-container', {
-      slidesPerView:1.25,
-      spaceBetween: 10,
-      centeredSlides: true,
+      width:300,
+      spaceBetween: 30,
+      slidesOffsetBefore: 30,
+      loop: true,
     });
-    alert(document.querySelector(".swiper-container").offsetWidth);
-    alert(document.querySelector(".swiper-container").offsetHeight);
-    alert(document.querySelector(".swiper-wrapper").offsetWidth);
-    alert(document.querySelector(".swiper-wrapper").offsetHeight);
   </script>
 </body>
 </html>
